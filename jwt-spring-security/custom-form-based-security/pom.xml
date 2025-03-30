@@ -8,11 +8,11 @@
         <version>3.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.spring.security</groupId>
-    <artifactId>In-Memory-Authentication</artifactId>
+    <groupId>com.jwt.security</groupId>
+    <artifactId>custom-form-based-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>In-Memory-Authentication</name>
-    <description>In-Memory-Authentication</description>
+    <name>custom-form-based-security</name>
+    <description>custom-form-based-security</description>
     <url/>
     <licenses>
         <license/>
@@ -49,7 +49,10 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
